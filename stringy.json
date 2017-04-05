@@ -1,0 +1,480 @@
+{
+  "components": {
+    "B1": {
+      "footprint": "9v-battery-contact", 
+      "layer": "top", 
+      "location": [
+        -9.536799, 
+        22.113895
+      ], 
+      "rotate": 180, 
+      "silkscreen": {
+        "refdef": {}
+      }
+    }, 
+    "C1": {
+      "footprint": "electrolitic-cap", 
+      "layer": "top", 
+      "location": [
+        -35.596718, 
+        34.456952
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {}
+      }
+    }, 
+    "IC1": {
+      "footprint": "PIC12F1840", 
+      "layer": "top", 
+      "location": [
+        -9.537593, 
+        3.482232
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {}
+      }
+    }, 
+    "IC2": {
+      "footprint": "regulator-TO92-ammo", 
+      "layer": "top", 
+      "location": [
+        -9.525099, 
+        15.851592
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {}
+      }
+    }, 
+    "J1": {
+      "footprint": "audio-jack", 
+      "layer": "top", 
+      "location": [
+        -26.932384, 
+        -19.546003
+      ], 
+      "rotate": -90, 
+      "silkscreen": {
+        "refdef": {}
+      }
+    }, 
+    "LED1": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        -18.990523, 
+        -1.349486
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {}
+      }
+    }, 
+    "R1": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        22.005741, 
+        -4.321601
+      ], 
+      "rotate": 0
+    }, 
+    "R10": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        17.844323, 
+        8.288339
+      ], 
+      "rotate": 0
+    }, 
+    "R11": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        -9.809863, 
+        -23.491955
+      ], 
+      "rotate": 0
+    }, 
+    "R12": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        15.792883, 
+        14.564363
+      ], 
+      "rotate": 0
+    }, 
+    "R13": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        16.803966, 
+        11.440982
+      ], 
+      "rotate": 0
+    }, 
+    "R14": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        -9.809863, 
+        -15.294709
+      ], 
+      "rotate": 0
+    }, 
+    "R15": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        -9.809863, 
+        -12.562293
+      ], 
+      "rotate": 0
+    }, 
+    "R16": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        18.884678, 
+        5.135736
+      ], 
+      "rotate": 0
+    }, 
+    "R17": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        -9.809863, 
+        -18.027123
+      ], 
+      "rotate": 0
+    }, 
+    "R18": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        -9.809863, 
+        -26.22503
+      ], 
+      "rotate": 0
+    }, 
+    "R2": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        14.708623, 
+        17.760919
+      ], 
+      "rotate": 0
+    }, 
+    "R3": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        13.638994, 
+        20.942838
+      ], 
+      "rotate": 0
+    }, 
+    "R4": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        -9.809863, 
+        -20.75954
+      ], 
+      "rotate": 0
+    }, 
+    "R5": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        24.086453, 
+        -10.6269
+      ], 
+      "rotate": 0
+    }, 
+    "R6": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        20.965387, 
+        -1.169562
+      ], 
+      "rotate": 0
+    }, 
+    "R7": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        23.0461, 
+        -7.474251
+      ], 
+      "rotate": 0
+    }, 
+    "R8": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        12.554737, 
+        24.139394
+      ], 
+      "rotate": 0
+    }, 
+    "R9": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        19.925034, 
+        1.983087
+      ], 
+      "rotate": 0
+    }, 
+    "SW1": {
+      "footprint": "pushbutton-2contacts", 
+      "layer": "top", 
+      "location": [
+        -28.90936, 
+        -0.365857
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {}
+      }
+    }, 
+    "SW2": {
+      "footprint": "pushbutton-2contacts", 
+      "layer": "top", 
+      "location": [
+        -28.938642, 
+        14.025437
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {}
+      }
+    }, 
+    "T1": {
+      "footprint": "bjt-npn-BC547B-TO92-ammo", 
+      "layer": "top", 
+      "location": [
+        -9.850274, 
+        -6.556156
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {}
+      }
+    }
+  }, 
+  "config": {
+    "name": "stringy", 
+    "no-docs": false, 
+    "no-drill-index": false, 
+    "no-flashes": false, 
+    "no-layer-index": false, 
+    "rev": "first", 
+    "style-layout": "default", 
+    "units": "mm"
+  }, 
+  "distances": {
+    "from-pour-to": {
+      "drill": 0.3, 
+      "outline": 0.25, 
+      "pad": 0.3, 
+      "route": 0.25
+    }, 
+    "soldermask": {
+      "circle-buffer": 0.05, 
+      "path-scale": 1.05, 
+      "rect-buffer": 0.05
+    }, 
+    "solderpaste": {
+      "circle-buffer": -0.1, 
+      "path-scale": 0.9, 
+      "rect-buffer": -0.1
+    }
+  }, 
+  "documentation": {
+    "board-details": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        -19.837074, 
+        -46.118731
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Board details:\nName: Stringy\nRevision: first\nDescription: strings on a PCB\nLicense: MIT\nDesign: Saar Drimer, Boldport"
+    }, 
+    "manufacturing": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        -13.386285, 
+        -58.348927
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Manufacturing:\nRoHS and lead free compliant manufacturing process\nUnit of length: Millimetre (mm)\nNumber of layers: 2 ('top', 'bottom')\nBoard thickness: 1.6 mm\nMaterial: FR4 35/35 um copper\nSilkscreen: top, bottom, white\nSoldermask: top, bottom, green\nSurface finish: ENIG lead fre"
+    }, 
+    "pcbmode": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.2mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.2mm", 
+      "location": [
+        -17.055164, 
+        -68.652843
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Designed with PCBmodE, an open source software\n     http://pcbmode.com\nStay updated:\n     @boldport @pcbmode http://boldport.com"
+    }
+  }, 
+  "drill-index": {
+    "location": [
+      -29.37662, 
+      -75.087078
+    ]
+  }, 
+  "drills": {}, 
+  "files": {
+    "routing-data": "stringy_routing.json", 
+    "routing-svg": "stringy.svg"
+  }, 
+  "gerber": {
+    "decimals": 6, 
+    "digits": 6, 
+    "min-segment-length": 0.05, 
+    "steps-per-segment": 100
+  }, 
+  "layer-control": {
+    "assembly": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "conductor": {
+      "hide": false, 
+      "lock": false, 
+      "pads": {
+        "hide": false, 
+        "lock": false, 
+        "place": true
+      }, 
+      "place": true, 
+      "pours": {
+        "hide": false, 
+        "lock": true, 
+        "place": true
+      }, 
+      "routing": {
+        "hide": false, 
+        "lock": false, 
+        "place": true
+      }
+    }, 
+    "dimensions": {
+      "hide": false, 
+      "lock": true, 
+      "place": true
+    }, 
+    "documentation": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "drills": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "origin": {
+      "hide": false, 
+      "lock": true, 
+      "place": true
+    }, 
+    "outline": {
+      "hide": false, 
+      "lock": true, 
+      "place": true
+    }, 
+    "placement": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "silkscreen": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "soldermask": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "solderpaste": {
+      "hide": true, 
+      "lock": true, 
+      "place": false
+    }
+  }, 
+  "outline": {
+    "shape": {
+      "height": 23.5, 
+      "radii": {
+        "bl": 2, 
+        "br": 2, 
+        "tl": 2, 
+        "tr": 2
+      }, 
+      "type": "path", 
+      "value": "m -29.511706,28.458108 36.3461019,0 C 22.061261,28.704155 37.161228,26.821439 37.161228,12.697425 c 0,0 -1.313903,-25.984807 -3.004536,-32.294337 -1.690632,-6.309529 -7.369533,-7.095902 -13.110997,-7.095902 -3.407579,0 -3.56215,2.4327 -3.486159,3.060723 0.07497,0.619561 0.402311,1.069876 0.620587,1.447364 0.218276,0.377488 0.486332,0.61449 0.591875,0.981746 0.136405,0.474649 -0.08434,0.999852 0.0254,1.481365 0.06788,0.297828 0.215088,0.57732 0.382868,0.832582 0.171321,0.260648 0.518299,0.40311 0.625364,0.69607 0.186189,0.509464 -0.162706,1.095733 -0.05073,1.626469 0.05647,0.267673 0.21453,0.505172 0.354786,0.740046 0.168341,0.281905 0.474802,0.485128 0.580013,0.796158 0.147807,0.436954 -0.05163,0.929744 0.03149,1.383468 0.06386,0.348602 0.194993,0.685844 0.354184,1.002482 0.174301,0.346691 0.528051,0.597482 0.649683,0.965967 0.158347,0.479711 -0.02542,1.017676 0.06904,1.513936 0.05614,0.2949479 0.149749,0.587761 0.292408,0.8519485 0.156391,0.2896167 0.499298,0.46862 0.605122,0.7802885 0.153757,0.4528417 -0.09563,0.9647052 -0.0071,1.4346813 0.05313,0.2822037 0.164385,0.5578552 0.317274,0.8009329 0.187786,0.29856 0.579595,0.4528439 0.717945,0.7772831 0.144236,0.3382405 0.02747,0.7354967 0.06662,1.1011163 0.02594,0.2422289 0.01612,0.4980723 0.111329,0.7223121 0.177008,0.4169093 0.687304,0.649328 0.82242,1.0816346 0.130228,0.4166683 -0.105106,0.8743677 -0.05792,1.3083548 0.03747,0.34455257 0.103721,0.69948676 0.268166,1.00457377 0.214482,0.39791873 0.767091,0.58109729 0.902204,1.0124743 0.127517,0.40712393 -0.178768,0.84463313 -0.154232,1.27055383 0.01722,0.2989453 0.07959,0.6038637 0.20994,0.8734465 0.199141,0.4118668 0.718353,0.6410268 0.846723,1.0801309 0.09333,0.319232 -0.10696,0.6607856 -0.09565,0.9931875 0.01073,0.3152942 0.03924,0.6400792 0.154553,0.9337255 0.165848,0.4223285 0.638819,0.6956511 0.75091,1.1353128 0.108114,0.424066 -0.150307,0.8722271 -0.111588,1.3081417 0.01805,0.2031636 0.07115,0.4067265 0.158651,0.5909649 0.23278,0.4901044 0.847138,0.7880638 0.951793,1.3204512 0.08806,0.447941 -0.29913,0.875462 -0.320688,1.331467 -0.02877,0.60852 0.66474,1.172373 0.25841,1.809238 -1.604524,2.51487 -6.716963,2.506733 -8.990933,-0.793248 -0.277947,-0.455575 0.06817,-1.08101 -0.05603,-1.600027 C 19.397973,10.812189 19.320601,10.670502 19.236532,10.53836 18.961826,10.106568 18.433308,9.840116 18.249241,9.3625945 18.056459,8.8624675 18.293647,8.2814504 18.189209,7.7557277 18.168696,7.6524698 18.130123,7.5518681 18.079471,7.4595785 17.8393,7.0219766 17.32598,6.7421294 17.17434,6.2665425 16.99928,5.7175042 17.312751,5.1087745 17.229164,4.5385972 17.205837,4.3794791 17.153155,4.2222215 17.076099,4.0810654 16.8467,3.6608383 16.359481,3.4036777 16.176851,2.9611158 15.984769,2.4956487 16.112886,1.9532705 16.016685,1.4590027 15.988016,1.311706 15.958533,1.1611475 15.893039,1.0261335 15.698417,0.62492438 15.263849,0.35993582 15.110246,-0.05869611 c -0.229182,-0.62461521 0.005,-1.34433439 -0.156063,-1.98988989 -0.04239,-0.1699401 -0.112204,-0.3362872 -0.209737,-0.4817646 -0.147692,-0.220293 -0.440588,-0.3312401 -0.554233,-0.5708787 -0.23831,-0.5025162 -0.04837,-1.1200302 -0.191522,-1.657452 -0.04494,-0.1687135 -0.121118,-0.3290921 -0.20667,-0.4812912 -0.19041,-0.3387424 -0.532886,-0.5884807 -0.676009,-0.9497537 -0.237884,-0.6004706 -0.07195,-1.3026039 -0.262328,-1.9197829 -0.05243,-0.1699849 -0.139672,-0.3294391 -0.238164,-0.4775728 -0.205197,-0.3086202 -0.583673,-0.5001023 -0.725513,-0.8424962 -0.198435,-0.4790124 0.0023,-1.0462999 -0.115845,-1.5511429 -0.04229,-0.180671 -0.116187,-0.355302 -0.209219,-0.515849 -0.226909,-0.391584 -0.677615,-0.645115 -0.837864,-1.068372 -0.194129,-0.512743 0.0068,-1.103539 -0.09666,-1.641943 -0.03413,-0.177561 -0.08261,-0.35708 -0.171167,-0.514723 -0.218739,-0.389403 -0.720001,-0.60043 -0.8658177,-1.02259 -0.141789,-0.410499 0.1137656,-0.872577 0.048738,-1.301978 -0.031248,-0.206345 -0.1105393,-0.405923 -0.2076178,-0.590667 -0.2225847,-0.423588 -0.7020243,-0.703703 -0.8453035,-1.160257 -0.1171069,-0.373158 0.086803,-0.786822 0.025157,-1.173035 -0.054826,-0.343481 -0.1625837,-0.688923 -0.3460296,-0.984444 -0.2449409,-0.394586 -0.8024771,-0.565275 -0.9729843,-0.997272 -0.2216167,-0.561489 -0.2303694,-0.749942 -0.051353,-2.164708 0.1790165,-1.414765 -0.996202,-2.651789 -3.9159009,-2.667894 l -22.4216902,0 c -4.861473,0.05583 -15.341683,3.168819 -15.245454,12.695474 0,0 -2.296027,29.056872 -2.505598,32.280895 -0.209572,3.224023 -1.756721,10.568255 7.332896,10.266192 z", 
+      "width": 56.5
+    }
+  }, 
+  "shapes": {
+    "KEYS": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "keys", 
+      "location": [
+        27.337775, 
+        3.303878
+      ], 
+      "show": true
+    }
+  }, 
+  "soldermask": {
+    "circle-buffer": 0.05, 
+    "path-scale": 1.05, 
+    "rect-buffer": 0.05
+  }, 
+  "solderpaste": {
+    "circle-buffer": -0.1, 
+    "path-scale": 0.9, 
+    "rect-buffer": -0.1
+  }, 
+  "stackup": {
+    "name": "two-layer"
+  }, 
+  "vias": {
+    "default-via": "VIA"
+  }
+}
