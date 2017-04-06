@@ -6,7 +6,7 @@
       "layout": 
       {
         "pad": "th", 
-        "location": [-7, 0]
+        "location": [-4.31, 0]
       }
     },
   "2TH":
@@ -14,7 +14,7 @@
       "layout": 
       {
         "pad": "th", 
-        "location": [7, 0]
+        "location": [4.31, 0]
       }
     }
   },

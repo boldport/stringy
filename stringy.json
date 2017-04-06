@@ -16,19 +16,52 @@
       "footprint": "electrolitic-cap", 
       "layer": "top", 
       "location": [
-        -35.596718, 
-        34.456952
+        -0.453073, 
+        -6.768249
       ], 
       "rotate": 0, 
       "silkscreen": {
         "refdef": {}
       }
     }, 
+    "C11": {
+      "footprint": "electrolitic-cap", 
+      "layer": "top", 
+      "location": [
+        -18.620525, 
+        -6.768249
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {}
+      }
+    }, 
+    "C22": {
+      "footprint": "electrolitic-cap", 
+      "layer": "top", 
+      "location": [
+        -18.620525, 
+        -20.106025
+      ], 
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {}
+      }
+    }, 
+    "C9": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        -9.536799, 
+        -23.545775
+      ], 
+      "rotate": 0
+    }, 
     "IC1": {
       "footprint": "PIC12F1840", 
       "layer": "top", 
       "location": [
-        -9.537593, 
+        -9.536799, 
         2.819922
       ], 
       "rotate": 0, 
@@ -40,8 +73,8 @@
       "footprint": "regulator-TO92-ammo", 
       "layer": "top", 
       "location": [
-        -9.525099, 
-        15.18928
+        -9.536799, 
+        11.855337
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -60,12 +93,36 @@
         "refdef": {}
       }
     }, 
+    "J11": {
+      "footprint": "micro-usb-socket-multicomp-MC001009", 
+      "layer": "bottom", 
+      "location": [
+        -34.38049, 
+        -8.919219
+      ], 
+      "rotate": 90, 
+      "silkscreen": {
+        "refdef": {}
+      }
+    }, 
+    "J33": {
+      "footprint": "1x10-2p54mm-header-stag", 
+      "layer": "top", 
+      "location": [
+        -24.720216, 
+        7.128232
+      ], 
+      "rotate": 90, 
+      "silkscreen": {
+        "refdef": {}
+      }
+    }, 
     "LED1": {
       "footprint": "led-5mm", 
       "layer": "top", 
       "location": [
-        -18.990523, 
-        -2.011796
+        7.959681, 
+        -24.22418
       ], 
       "rotate": 0, 
       "silkscreen": {
@@ -73,7 +130,7 @@
       }
     }, 
     "R1": {
-      "footprint": "th-resistor", 
+      "footprint": "th-resistor-wide", 
       "layer": "top", 
       "location": [
         22.122823, 
@@ -82,7 +139,7 @@
       "rotate": 0
     }, 
     "R10": {
-      "footprint": "th-resistor", 
+      "footprint": "th-resistor-wide", 
       "layer": "top", 
       "location": [
         17.961405, 
@@ -90,17 +147,8 @@
       ], 
       "rotate": 0
     }, 
-    "R11": {
-      "footprint": "th-resistor", 
-      "layer": "top", 
-      "location": [
-        -9.809863, 
-        -24.154267
-      ], 
-      "rotate": 0
-    }, 
     "R12": {
-      "footprint": "th-resistor", 
+      "footprint": "th-resistor-wide", 
       "layer": "top", 
       "location": [
         15.909965, 
@@ -109,7 +157,7 @@
       "rotate": 0
     }, 
     "R13": {
-      "footprint": "th-resistor", 
+      "footprint": "th-resistor-wide", 
       "layer": "top", 
       "location": [
         16.921048, 
@@ -121,8 +169,8 @@
       "footprint": "th-resistor", 
       "layer": "top", 
       "location": [
-        -9.809863, 
-        -15.957021
+        -9.536799, 
+        -15.213748
       ], 
       "rotate": 0
     }, 
@@ -130,13 +178,13 @@
       "footprint": "th-resistor", 
       "layer": "top", 
       "location": [
-        -9.809863, 
-        -13.224605
+        -9.536799, 
+        -12.436625
       ], 
       "rotate": 0
     }, 
     "R16": {
-      "footprint": "th-resistor", 
+      "footprint": "th-resistor-wide", 
       "layer": "top", 
       "location": [
         19.00176, 
@@ -148,8 +196,8 @@
       "footprint": "th-resistor", 
       "layer": "top", 
       "location": [
-        -9.809863, 
-        -18.689435
+        -9.536799, 
+        -17.990871
       ], 
       "rotate": 0
     }, 
@@ -157,13 +205,13 @@
       "footprint": "th-resistor", 
       "layer": "top", 
       "location": [
-        -9.809863, 
-        -26.887342
+        -9.536799, 
+        -26.322898
       ], 
       "rotate": 0
     }, 
     "R2": {
-      "footprint": "th-resistor", 
+      "footprint": "th-resistor-wide", 
       "layer": "top", 
       "location": [
         14.825705, 
@@ -171,8 +219,17 @@
       ], 
       "rotate": 0
     }, 
-    "R3": {
+    "R20": {
       "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        -9.536799, 
+        -9.660162
+      ], 
+      "rotate": 0
+    }, 
+    "R3": {
+      "footprint": "th-resistor-wide", 
       "layer": "top", 
       "location": [
         13.756076, 
@@ -184,13 +241,13 @@
       "footprint": "th-resistor", 
       "layer": "top", 
       "location": [
-        -9.809863, 
-        -21.421852
+        -9.536799, 
+        -20.767993
       ], 
       "rotate": 0
     }, 
     "R5": {
-      "footprint": "th-resistor", 
+      "footprint": "th-resistor-wide", 
       "layer": "top", 
       "location": [
         24.203535, 
@@ -199,7 +256,7 @@
       "rotate": 0
     }, 
     "R6": {
-      "footprint": "th-resistor", 
+      "footprint": "th-resistor-wide", 
       "layer": "top", 
       "location": [
         21.082469, 
@@ -208,7 +265,7 @@
       "rotate": 0
     }, 
     "R7": {
-      "footprint": "th-resistor", 
+      "footprint": "th-resistor-wide", 
       "layer": "top", 
       "location": [
         23.163182, 
@@ -217,7 +274,7 @@
       "rotate": 0
     }, 
     "R8": {
-      "footprint": "th-resistor", 
+      "footprint": "th-resistor-wide", 
       "layer": "top", 
       "location": [
         12.671819, 
@@ -226,7 +283,7 @@
       "rotate": 0
     }, 
     "R9": {
-      "footprint": "th-resistor", 
+      "footprint": "th-resistor-wide", 
       "layer": "top", 
       "location": [
         20.042116, 
@@ -238,7 +295,7 @@
       "footprint": "pushbutton-2contacts", 
       "layer": "top", 
       "location": [
-        -28.90936, 
+        -29.603164, 
         -0.365857
       ], 
       "rotate": 0, 
@@ -250,7 +307,7 @@
       "footprint": "pushbutton-2contacts", 
       "layer": "top", 
       "location": [
-        -28.938642, 
+        -29.632446, 
         14.025437
       ], 
       "rotate": 0, 
@@ -262,10 +319,10 @@
       "footprint": "bjt-npn-BC547B-TO92-ammo", 
       "layer": "top", 
       "location": [
-        -9.850274, 
-        -7.218466
+        -9.717283, 
+        -6.203145
       ], 
-      "rotate": 0, 
+      "rotate": 180, 
       "silkscreen": {
         "refdef": {}
       }
@@ -273,10 +330,10 @@
   }, 
   "config": {
     "name": "stringy", 
-    "no-docs": false, 
+    "no-docs": true, 
     "no-drill-index": false, 
     "no-flashes": false, 
-    "no-layer-index": false, 
+    "no-layer-index": true, 
     "rev": "first", 
     "style-layout": "default", 
     "units": "mm"
@@ -394,7 +451,7 @@
     "documentation": {
       "hide": false, 
       "lock": false, 
-      "place": true
+      "place": false
     }, 
     "drills": {
       "hide": false, 
