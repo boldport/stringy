@@ -1,0 +1,91 @@
+{
+  "pins":
+  {
+  "1":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [-1.25, 0]
+      }
+    },
+  "2":
+    {
+      "layout": 
+      {
+	"pad": "plus-pin", 
+	"location": [1.25, 0]
+      }
+    }
+  },
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+        {
+          "style": "stroke",
+          "type": "circle",
+          "diameter": 6.8
+        },
+        {
+          "type": "path",
+          "layers": ["top"],
+          "value": "m -17.86567,22.12232 0,-0.550405 m 0.275202,0.275203 -0.550405,0 m -1.149708,-3.631717 0.402805,0 m 0.544211,0 0.402805,0 m -0.986824,-0.445672 c 0,0 0.15032,0.288892 0.15032,0.445673 0,0.15678 -0.15032,0.445672 -0.15032,0.445672 m 0.465992,-0.891345 0,0.891345",
+          "style": "stroke",
+          "location": [0.18,0.16]
+        }
+      ] 
+    },
+    "assembly":
+    {
+      "shapes":
+      [
+        {
+          "type": "circle",
+          "diameter": 6.3
+        }
+      ]
+    }
+  },
+  "pads":
+  {
+    "pin":
+    {
+      "shapes":
+      [
+        {
+          "layers": ["top", "bottom"],
+          "type": "circle",
+          "diameter": 1.4
+        }
+      ],
+      "drills":
+      [
+        {
+          "diameter": 0.8
+        }
+      ]
+    },
+    "plus-pin":
+    {
+      "shapes":
+      [
+        {
+          "layers": ["top", "bottom"],
+          "type": "rect",
+          "width": 1.4,
+          "height": 1.4,
+          "radii": {"tl": 0.25, "tr": 0.25, "bl": 0.25, "br": 0.25}
+        }
+      ],
+      "drills":
+      [
+        {
+          "diameter": 0.8
+        }
+      ]
+    }
+  }
+}
