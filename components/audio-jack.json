@@ -140,7 +140,8 @@
         {
           "type": "circle",
           "layers": ["top", "bottom"],
-          "diameter": 0.3,
+          "diameter": 1.0,
+          "buffer-to-pour": 0.3,
           "soldermask": {
             "type": "circle",
             "diameter": 1.3
