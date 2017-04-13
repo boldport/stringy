@@ -87,7 +87,6 @@
           "width": 10.66,
           "height": 10.46,
           "style": "stroke",
-          "stroke-width": 0.2,
           "radii": {"tl": 0.5, "tr": 0.5, "bl": 0, "br": 0.5}
         }
       ]
