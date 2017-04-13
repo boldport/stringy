@@ -49,7 +49,7 @@
       }
     }, 
     "C4": {
-      "footprint": "th-resistor", 
+      "footprint": "th-capacitor", 
       "layer": "top", 
       "location": [
         -10.450332, 
@@ -58,7 +58,7 @@
       "rotate": 0
     }, 
     "C5": {
-      "footprint": "th-resistor", 
+      "footprint": "th-capacitor", 
       "layer": "top", 
       "location": [
         -0.673537, 
