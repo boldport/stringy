@@ -92,7 +92,7 @@
     }, 
     "J1": {
       "footprint": "1x12-2p54mm-header-stag", 
-      "layer": "top", 
+      "layer": "bottom", 
       "location": [
         -25.633749, 
         4.565896
@@ -525,6 +525,34 @@
     }
   }, 
   "shapes": {
+    "B": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "boldport-b-stylised", 
+      "location": [
+        8.304919, 
+        -12.589194
+      ], 
+      "scale": 1, 
+      "show": true
+    }, 
+    "INFO": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "info-text", 
+      "layer": "bottom", 
+      "location": [
+        17.064701, 
+        -18.781921
+      ], 
+      "show": true
+    }, 
     "KEYS": {
       "assembly": {
         "refdef": {
@@ -538,6 +566,20 @@
       ], 
       "show": true
     }, 
+    "LEGEND": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "header-legend", 
+      "layer": "bottom", 
+      "location": [
+        -22.603534, 
+        4.565896
+      ], 
+      "show": true
+    }, 
     "MADLAB": {
       "assembly": {
         "refdef": {
@@ -546,9 +588,10 @@
       }, 
       "footprint": "madlab-logo-text", 
       "location": [
-        18.755392, 
-        -23.21032
+        21.397014, 
+        -21.244462
       ], 
+      "scale": 1.3, 
       "show": true
     }, 
     "POURS": {
