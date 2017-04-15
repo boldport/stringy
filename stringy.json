@@ -2,14 +2,19 @@
   "components": {
     "B1": {
       "footprint": "9v-battery-contact", 
-      "layer": "top", 
+      "layer": "bottom", 
       "location": [
         -10.450332, 
         21.451583
       ], 
-      "rotate": 180, 
+      "rotate": 0, 
       "silkscreen": {
-        "refdef": {}
+        "refdef": {
+          "location": [
+            0, 
+            4.515552
+          ]
+        }
       }
     }, 
     "C1": {
@@ -21,7 +26,12 @@
       ], 
       "rotate": 0, 
       "silkscreen": {
-        "refdef": {}
+        "refdef": {
+          "location": [
+            0, 
+            -3.386666
+          ]
+        }
       }
     }, 
     "C2": {
@@ -33,7 +43,12 @@
       ], 
       "rotate": 0, 
       "silkscreen": {
-        "refdef": {}
+        "refdef": {
+          "location": [
+            0, 
+            -3.386666
+          ]
+        }
       }
     }, 
     "C3": {
@@ -45,7 +60,12 @@
       ], 
       "rotate": 0, 
       "silkscreen": {
-        "refdef": {}
+        "refdef": {
+          "location": [
+            0, 
+            -4.515552
+          ]
+        }
       }
     }, 
     "C4": {
@@ -55,7 +75,15 @@
         -10.450332, 
         -24.486515
       ], 
-      "rotate": 0
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            6.773334, 
+            0
+          ]
+        }
+      }
     }, 
     "C5": {
       "footprint": "th-capacitor", 
@@ -64,7 +92,16 @@
         -0.673537, 
         2.742222
       ], 
-      "rotate": 90
+      "rotate": 90, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            -6.773333, 
+            -0.0
+          ], 
+          "rotate": -90
+        }
+      }
     }, 
     "IC1": {
       "footprint": "regulator-TO92-ammo", 
@@ -75,7 +112,12 @@
       ], 
       "rotate": 0, 
       "silkscreen": {
-        "refdef": {}
+        "refdef": {
+          "location": [
+            0, 
+            2.82222
+          ]
+        }
       }
     }, 
     "IC2": {
@@ -87,34 +129,15 @@
       ], 
       "rotate": 0, 
       "silkscreen": {
-        "refdef": {}
+        "refdef": {
+          "location": [
+            -7.902216, 
+            0
+          ]
+        }
       }
     }, 
     "J1": {
-      "footprint": "1x12-2p54mm-header-stag", 
-      "layer": "bottom", 
-      "location": [
-        -25.633749, 
-        4.565896
-      ], 
-      "rotate": 90, 
-      "silkscreen": {
-        "refdef": {}
-      }
-    }, 
-    "J2": {
-      "footprint": "micro-usb-socket-multicomp-MC001009", 
-      "layer": "bottom", 
-      "location": [
-        -34.984186, 
-        -8.919219
-      ], 
-      "rotate": 90, 
-      "silkscreen": {
-        "refdef": {}
-      }
-    }, 
-    "J3": {
       "footprint": "audio-jack", 
       "layer": "top", 
       "location": [
@@ -123,10 +146,34 @@
       ], 
       "rotate": -90, 
       "silkscreen": {
-        "refdef": {}
+        "refdef": {
+          "location": [
+            6.773328, 
+            2.82222
+          ], 
+          "rotate": 90
+        }
       }
     }, 
-    "J4": {
+    "J2": {
+      "footprint": "1x12-2p54mm-header-stag", 
+      "layer": "bottom", 
+      "location": [
+        -25.633749, 
+        4.565896
+      ], 
+      "rotate": 90, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            16.36888, 
+            0
+          ], 
+          "rotate": 90
+        }
+      }
+    }, 
+    "J3": {
       "footprint": "solder-blob-jumper", 
       "layer": "bottom", 
       "location": [
@@ -135,7 +182,33 @@
       ], 
       "rotate": 0, 
       "silkscreen": {
-        "refdef": {}
+        "refdef": {
+          "location": [
+            -0.499558, 
+            -3.451825
+          ]
+        }
+      }
+    }, 
+    "J4": {
+      "footprint": "micro-usb-socket-multicomp-MC001009", 
+      "layer": "bottom", 
+      "location": [
+        -34.984186, 
+        -8.919219
+      ], 
+      "rotate": 90, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            4.515555, 
+            2.82222
+          ], 
+          "rotate": 90
+        }, 
+        "shapes": {
+          "show": false
+        }
       }
     }, 
     "LED1": {
@@ -147,7 +220,12 @@
       ], 
       "rotate": 0, 
       "silkscreen": {
-        "refdef": {}
+        "refdef": {
+          "location": [
+            0, 
+            -3.755628
+          ]
+        }
       }
     }, 
     "R1": {
@@ -157,7 +235,15 @@
         11.758286, 
         22.600719
       ], 
-      "rotate": 0
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
     }, 
     "R10": {
       "footprint": "th-resistor-wide", 
@@ -166,7 +252,15 @@
         21.20929, 
         -5.860273
       ], 
-      "rotate": 0
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
     }, 
     "R11": {
       "footprint": "th-resistor-wide", 
@@ -175,7 +269,15 @@
         22.249649, 
         -9.012923
       ], 
-      "rotate": 0
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
     }, 
     "R12": {
       "footprint": "th-resistor-wide", 
@@ -184,7 +286,15 @@
         23.290002, 
         -12.165575
       ], 
-      "rotate": 0
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
     }, 
     "R13": {
       "footprint": "th-resistor", 
@@ -247,7 +357,15 @@
         12.842543, 
         19.404163
       ], 
-      "rotate": 0
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
     }, 
     "R3": {
       "footprint": "th-resistor-wide", 
@@ -256,7 +374,15 @@
         13.912172, 
         16.222244
       ], 
-      "rotate": 0
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
     }, 
     "R4": {
       "footprint": "th-resistor-wide", 
@@ -265,7 +391,15 @@
         14.996432, 
         13.025688
       ], 
-      "rotate": 0
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
     }, 
     "R5": {
       "footprint": "th-resistor-wide", 
@@ -274,7 +408,15 @@
         16.007515, 
         9.902308
       ], 
-      "rotate": 0
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
     }, 
     "R6": {
       "footprint": "th-resistor-wide", 
@@ -283,7 +425,15 @@
         17.047872, 
         6.749667
       ], 
-      "rotate": 0
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
     }, 
     "R7": {
       "footprint": "th-resistor-wide", 
@@ -292,7 +442,15 @@
         18.088227, 
         3.597064
       ], 
-      "rotate": 0
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
     }, 
     "R8": {
       "footprint": "th-resistor-wide", 
@@ -301,7 +459,15 @@
         19.128583, 
         0.444415
       ], 
-      "rotate": 0
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
     }, 
     "R9": {
       "footprint": "th-resistor-wide", 
@@ -310,7 +476,15 @@
         20.168936, 
         -2.708234
       ], 
-      "rotate": 0
+      "rotate": 0, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
     }, 
     "SW1": {
       "footprint": "pushbutton-2contacts", 
@@ -321,7 +495,12 @@
       ], 
       "rotate": 0, 
       "silkscreen": {
-        "refdef": {}
+        "refdef": {
+          "location": [
+            0, 
+            4.862796
+          ]
+        }
       }
     }, 
     "SW2": {
@@ -333,7 +512,12 @@
       ], 
       "rotate": 0, 
       "silkscreen": {
-        "refdef": {}
+        "refdef": {
+          "location": [
+            0, 
+            -4.819361
+          ]
+        }
       }
     }, 
     "T1": {
@@ -345,7 +529,13 @@
       ], 
       "rotate": 180, 
       "silkscreen": {
-        "refdef": {}
+        "refdef": {
+          "location": [
+            4.927956, 
+            0
+          ], 
+          "rotate": 180
+        }
       }
     }
   }, 
@@ -594,6 +784,33 @@
       "scale": 1.3, 
       "show": true
     }, 
+    "NOTES": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "notes", 
+      "location": [
+        -0.266076, 
+        -2.515057
+      ], 
+      "show": true
+    }, 
+    "PLUCK": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "pluck", 
+      "layer": "bottom", 
+      "location": [
+        3.835985, 
+        15.0563
+      ], 
+      "show": true
+    }, 
     "POURS": {
       "assembly": {
         "refdef": {
@@ -604,6 +821,19 @@
       "location": [
         0, 
         0
+      ], 
+      "show": true
+    }, 
+    "SW-LEG": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "button-legend", 
+      "location": [
+        -30.550676, 
+        7.388097
       ], 
       "show": true
     }
