@@ -1,0 +1,25 @@
+{
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+        {
+          "font-family": "UbuntuMono-R-webfont", 
+          "font-size": "1.8mm", 
+          "letter-spacing": "0mm", 
+          "line-height": "1.6mm", 
+          "location": [
+            0, 
+            0
+          ], 
+          "rotate": 0, 
+          "style": "fill", 
+          "type": "text", 
+          "value": "Stringy. A Boldport production\nbased on a MADLAB design\nhttp://boldport.com/stringy"
+        }
+      ]
+    }
+  }  
+}
