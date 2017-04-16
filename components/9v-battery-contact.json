@@ -13,7 +13,7 @@
     {
       "layout": 
       {
-	"pad": "pin", 
+	"pad": "pin-l", 
 	"location": [-6.35, -1.8]
       }
     },
@@ -37,7 +37,7 @@
     {
       "layout": 
       {
-	"pad": "pin", 
+	"pad": "pin-l", 
 	"location": [6.35, -1.8]
       }
     },
@@ -87,6 +87,24 @@
           "type": "circle",
           "layers": ["top", "bottom"],
           "diameter": 2.6,
+          "solderpaste": {} 
+        }
+      ],
+      "drills":
+      [
+        {
+          "diameter": 1.6
+        }
+      ]
+    },
+    "pin-l":
+    {
+      "shapes":
+      [
+        {
+          "type": "circle",
+          "layers": ["top", "bottom"],
+          "diameter": 3.2,
           "solderpaste": {} 
         }
       ],
