@@ -69,7 +69,7 @@
       }
     }, 
     "C4": {
-      "footprint": "th-capacitor", 
+      "footprint": "th-capacitor-5p08", 
       "layer": "top", 
       "location": [
         -10.450332, 
@@ -79,14 +79,14 @@
       "silkscreen": {
         "refdef": {
           "location": [
-            6.773334, 
+            5.080002, 
             0
           ]
         }
       }
     }, 
     "C5": {
-      "footprint": "th-capacitor", 
+      "footprint": "th-capacitor-5p08", 
       "layer": "top", 
       "location": [
         -0.673537, 
@@ -96,8 +96,8 @@
       "silkscreen": {
         "refdef": {
           "location": [
-            -6.773333, 
-            -0.0
+            0, 
+            2.257778
           ], 
           "rotate": -90
         }
@@ -831,10 +831,40 @@
         }
       }, 
       "footprint": "button-legend", 
+      "layer": "top", 
       "location": [
-        -30.550676, 
-        7.388097
+        -30.56077, 
+        7.39921
       ], 
+      "show": true
+    }, 
+    "SYMB": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "symbol", 
+      "location": [
+        -10.179708, 
+        2.780143
+      ], 
+      "rotate": -90, 
+      "show": true
+    }, 
+    "SYMB2": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "symbol", 
+      "location": [
+        -0.740248, 
+        13.796548
+      ], 
+      "rotate": 0, 
+      "scale": 1.5, 
       "show": true
     }
   }, 
