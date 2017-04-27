@@ -137,7 +137,7 @@
       "drills":
       [
         {
-          "diameter": 1.1,
+          "diameter": 1,
           "location": [0, 0]
         }
       ]
