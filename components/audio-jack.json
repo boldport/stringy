@@ -89,7 +89,7 @@
       "shapes":
       [
         {
-	  "layers": ["top","bottom"],
+	  "layers": ["top"],
           "type": "rect",
           "height": 12,
           "width": 12,
@@ -103,7 +103,7 @@
       "shapes":
       [
         {
-	  "layers": ["top","bottom"],
+	  "layers": ["top"],
           "type": "rect",
           "height": 12,
           "width": 11,
