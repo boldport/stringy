@@ -784,19 +784,6 @@
       "scale": 1.3, 
       "show": true
     }, 
-    "NOTES": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "notes", 
-      "location": [
-        -0.266076, 
-        -2.515057
-      ], 
-      "show": true
-    }, 
     "PLUCK": {
       "assembly": {
         "refdef": {
@@ -804,7 +791,7 @@
         }
       }, 
       "footprint": "pluck", 
-      "layer": "bottom", 
+      "layer": "top", 
       "location": [
         3.835985, 
         15.0563
@@ -821,6 +808,20 @@
       "location": [
         0, 
         0
+      ], 
+      "show": true
+    }, 
+    "STRINGS": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "strings", 
+      "layer": "bottom", 
+      "location": [
+        -0.030218, 
+        -1.306037
       ], 
       "show": true
     }, 
@@ -850,21 +851,6 @@
         2.780143
       ], 
       "rotate": -90, 
-      "show": true
-    }, 
-    "SYMB2": {
-      "assembly": {
-        "refdef": {
-          "show": false
-        }
-      }, 
-      "footprint": "symbol", 
-      "location": [
-        -0.740248, 
-        13.796548
-      ], 
-      "rotate": 0, 
-      "scale": 1.5, 
       "show": true
     }
   }, 
