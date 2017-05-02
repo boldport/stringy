@@ -16,6 +16,20 @@
     {
       "shapes":
       [
+        {
+          "font-family": "UbuntuMono-R-webfont", 
+          "font-size": "1.8mm", 
+          "letter-spacing": "0mm", 
+          "line-height": "1.6mm", 
+          "location": [
+            0, 
+            -1.6
+          ], 
+          "rotate": 0, 
+          "style": "fill", 
+          "type": "text", 
+          "value": "VDD    VUSB"
+        }
       ]   
     },
     "assembly":

@@ -89,10 +89,10 @@
       "shapes":
       [
         {
-	  "layers": ["top"],
+	  "layers": ["top","bottom"],
           "type": "rect",
           "height": 12,
-          "width": 11,
+          "width": 12,
           "location": [0, 3],
           "radii": {"tl": 0.05, "tr": 0.05, "bl": 0.05, "br": 0.05}
         }
@@ -103,7 +103,7 @@
       "shapes":
       [
         {
-	  "layers": ["top"],
+	  "layers": ["top","bottom"],
           "type": "rect",
           "height": 12,
           "width": 11,
